@@ -1,0 +1,12 @@
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\bin\Debug\net5.0\BuildingManagementSystem.Data.deps.json
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\bin\Debug\net5.0\BuildingManagementSystem.Data.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\bin\Debug\net5.0\ref\BuildingManagementSystem.Data.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\bin\Debug\net5.0\BuildingManagementSystem.Data.pdb
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.AssemblyInfoInputs.cache
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.AssemblyInfo.cs
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\ref\BuildingManagementSystem.Data.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.pdb
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Data\obj\Debug\net5.0\BuildingManagementSystem.Data.csproj.AssemblyReference.cache
