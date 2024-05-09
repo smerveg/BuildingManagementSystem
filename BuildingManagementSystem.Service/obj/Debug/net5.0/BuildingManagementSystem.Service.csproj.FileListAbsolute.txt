@@ -1,0 +1,15 @@
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\BuildingManagementSystem.Service.deps.json
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\BuildingManagementSystem.Service.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\ref\BuildingManagementSystem.Service.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\BuildingManagementSystem.Service.pdb
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\BuildingManagementSystem.Data.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\bin\Debug\net5.0\BuildingManagementSystem.Data.pdb
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.csproj.AssemblyReference.cache
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.AssemblyInfoInputs.cache
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.AssemblyInfo.cs
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.csproj.CoreCompileInputs.cache
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.csproj.CopyComplete
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\ref\BuildingManagementSystem.Service.dll
+C:\Users\son\source\repos\BuildingManagementSystem\BuildingManagementSystem.Service\obj\Debug\net5.0\BuildingManagementSystem.Service.pdb
