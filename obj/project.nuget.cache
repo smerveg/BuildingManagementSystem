@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+4Ea7X54CGEpp4BUDiSB9AQeywJab+1swdim+zDxfTFBMEGEAzv/SzO6xSZGfsyIzRmySMh/SoebfNk+1wxsgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\son\\source\\repos\\BuildingManagementSystem\\BuildingManagementSystem.ConsumeApi\\BuildingManagementSystem.ConsumeApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\son\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
