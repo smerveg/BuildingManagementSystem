@@ -1,0 +1,63 @@
+﻿@model IEnumerable<BuildingManagementSystem.ConsumeApi.Models.StorageViewModels.StorageVM>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Depo Listesi</h4>
+            <span><a asp-controller="Storage" asp-action="AddStorage" class="btn btn-round btn-primary">Ekle</a></span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class=" text-primary">
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Floor)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BuildingName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Properties)
+                    </th>
+                    <th>
+                        Güncelle
+                    </th>
+                    <th>
+                        Sil
+                    </th>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Floor)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.BuildingName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Properties)
+                                </td>
+                                <td>
+                                    <a asp-controller="Storage" asp-action="UpdateStorage" asp-route-id="@item.StorageID" class="btn btn-round btn-primary">Güncelle</a>
+                                </td>
+                                <td>
+                                    <a asp-controller="Storage" asp-action="DeleteStorage" asp-route-id="@item.StorageID" class="btn btn-round btn-default">Sil</a>
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

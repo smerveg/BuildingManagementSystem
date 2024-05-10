@@ -1,0 +1,88 @@
+﻿@model BuildingManagementSystem.ConsumeApi.Models.RoomViewModels.RoomVM
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="title">Yeni Oda Ekle</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="AddRoom">
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+
+                            <label>Bina</label>
+                            @if (ViewBag.BuildingList != null)
+                            {
+                                <select asp-for="BuildingID" class="form-control dropdown-toggle"
+                                        asp-items="@(new SelectList(ViewBag.BuildingList,"BuildingID","Name"))">
+                                    <option class="dropdown-menu dropdown-menu"></option>
+                                </select>
+                                <span asp-validation-for="BuildingID" class="text-danger"></span>
+                            }
+                            else @if (ViewBag.BuildingName != null)
+                       {
+                        <input type="text" class="form-control" disabled="" value="@ViewBag.BuildingName">
+                        <input type="hidden" asp-for="BuildingID" value="@ViewBag.BuildingID" />
+                    }
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <label>Oda Adı</label>
+                            <input type="text" asp-for="Name" class="form-control">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <label>Kat No</label>
+                            <input type="text" asp-for="Floor" class="form-control">
+                            <span asp-validation-for="Floor" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Oda Özellikleri</label>
+                            <textarea rows="4" cols="80" asp-for="Properties" class="form-control"> </textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <input type="submit" value="Ekle" class="btn btn-round btn-primary" />
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+@section Scripts
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}

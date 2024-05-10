@@ -1,0 +1,82 @@
+﻿@model BuildingManagementSystem.ConsumeApi.Models.ProductViewModels.ProductVM
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="title">Yeni Ürün Ekle</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="AddProduct">
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+
+                            <label>Depo</label>
+
+                            <select asp-for="StorageID" class="form-control dropdown-toggle"
+                                    asp-items="@(new SelectList(ViewBag.StorageList,"StorageID","Name"))">
+                                <option class="dropdown-menu dropdown-menu"></option>
+                            </select>
+                            <span asp-validation-for="StorageID" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <label>Ürün Adı</label>
+                            <input type="text" asp-for="Name" class="form-control">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <label>Miktar</label>
+                            <input type="text" asp-for="Quantity" class="form-control">
+                            <span asp-validation-for="Quantity" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Ürün Tanımı</label>
+                            <textarea rows="4" cols="80" asp-for="Description" class="form-control"> </textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <div class="form-group">
+                            <input type="submit" value="Ekle" class="btn btn-round btn-primary" />
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-1">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+@section Scripts
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
